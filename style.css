@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(img/tarot.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* NARVAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 25px 7%;
+}
+
+h2 {
+  color: #fff;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
