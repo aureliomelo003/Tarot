@@ -3,33 +3,12 @@
   margin: 0;
 }
 
-body {
+/* NARVAR */
+.header {
   background-image: url(img/tarot.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-/* NARVAR */
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: transparent;
-  padding: 25px 7%;
-}
-
-h2 {
-  color: #fff;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .links {
@@ -37,4 +16,52 @@ a {
   align-items: center;
   justify-content: center;
   gap: 3rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 25px 7%;
+}
+
+nav h2 {
+  color: #fff;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ABOUT ME */
+.about-me {
+  background-color: #FFE5B4;
+}
+
+.about-me h2 {
+text-align: center;
+padding: 2rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 10rem 3rem;
+}
+
+.content p {
+  width: 40vw;
+  word-break: break-word;
+}
+
+.pic-me {
+  border-radius: 50%;
+  width: 20rem;
 }
