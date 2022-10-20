@@ -1,0 +1,23 @@
+{
+  "name": "tarot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aureliomelo003/Tarot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aureliomelo003/Tarot/issues"
+  },
+  "homepage": "https://github.com/aureliomelo003/Tarot#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}
