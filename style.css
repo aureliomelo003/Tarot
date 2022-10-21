@@ -49,36 +49,75 @@
 
 .about-me h2 {
 text-align: center;
-padding: 2rem;
+padding: 1.5rem;
 }
 
-.content {
+.about {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 0 7rem 2rem;
 }
 
-.content p {
+.about p {
   width: 40vw;
   word-break: break-word;
 }
 
 .pic-me {
   border-radius: 50%;
-  width: 25rem;
+  width: 25vw;
 }
 
 /* SERVICE */
-.cards {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .service h2 {
   text-align: center;
   padding: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  margin: 10px;
+  width: 270px;
+  height: 400px auto;
+  border-radius: 15px;
+}
+
+.card h2 {
+  padding: 10px;
+}
+
+.card p {
+  padding: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #726659;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+.card-image {
+  background-color: aqua;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
 }
 
 /* CONTACT ME */
