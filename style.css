@@ -4,6 +4,9 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 /* NARVAR */
 :root {
   --flex-direction-nav: row;
@@ -53,11 +56,11 @@
 }
 
 /* ABOUT ME */
-.about-me {
+#about-me {
   background-color: #cfbbae;
 }
 
-.about-me h2 {
+#about-me h2 {
 text-align: center;
 padding: 1.5rem;
 }
@@ -81,7 +84,7 @@ padding: 1.5rem;
 }
 
 /* SERVICE */
-.service h2 {
+#service h2 {
   text-align: center;
   padding: 2rem;
 }
@@ -205,6 +208,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
 }
 
+ /* MESSAGE */
 h3 {
   position: relative;
   padding-top: 5rem;
@@ -273,7 +277,7 @@ textarea:hover {
 }
 
 #submit {
-  width: 502px;
+  width: 470px;
 
   padding: 0;
   margin: -5px 0px 0px 0px;
