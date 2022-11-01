@@ -64,6 +64,7 @@ padding: 1.5rem;
 
 .about {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   padding: 0 7rem 2rem;
@@ -202,12 +203,6 @@ input:hover::placeholder, textarea:hover::placeholder {
 
 input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   color: #cbc6c1;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  background: #e2dedb;
-  color: #b3aca7;
 }
 
 h3 {
